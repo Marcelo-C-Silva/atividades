@@ -9,4 +9,6 @@ const resultado = primeiroNumero * segundoNumero;
 //enves de modificar o valor dela, podemos acrescentar para evoluir o valor//
 const resultadoDuplicado = resultado * 2;
 console.log(resultadoDuplicado);
+//podemos usar uma função chamada "typeof" para saber qual o tipo da variavel//
+console.log ( typeof primeiroNumero);//podemos ou não colocar entre parenteses, (typeof(primeiroNumero)) ou (typeof primeiroNumero)//
 
