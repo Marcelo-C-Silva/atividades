@@ -6,3 +6,5 @@ confirm('tem certeza?');
 
 prompt('coloca teu nome ae')
 //abre uma caixinha para escrever algo dentro//
+//parsefloat();//
+//number();//
