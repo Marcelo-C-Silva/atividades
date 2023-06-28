@@ -21,3 +21,15 @@ const num7 = 10;
 const num8 = 3;
 console.log(num7 % num8);
 //reultado = 1//
+
+// ++ tem a terefa de adicionar mais 1 no contador//
+let contador = 1;
+contador++
+console.log(contador);
+//resultado = 2//
+
+// podemos usar -- para tirar 1 do contador//
+let contador1 = 10;
+contador1--
+console.log(contador1);
+//resultado = 9//
