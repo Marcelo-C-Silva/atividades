@@ -3,3 +3,6 @@ alert('eae men?');
 
 confirm('tem certeza?');
 //vai retornar um valor boolean, se eu clicar 'ok' ele retornará 'true' e se eu clicar em cancelar, vai retornar 'false'//
+
+prompt('coloca teu nome ae')
+//abre uma caixinha para escrever algo dentro//
