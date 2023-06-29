@@ -20,7 +20,7 @@ console.log(num5 ** num6);
 const num7 = 10;
 const num8 = 3;
 console.log(num7 % num8);
-//reultado = 1//
+//resultado = 1//
 
 // ++ tem a terefa de adicionar mais 1 no contador//
 let contador = 1;
