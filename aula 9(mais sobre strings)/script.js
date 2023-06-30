@@ -14,3 +14,7 @@ console.log(umaString.indexOf('o', 3));
 //usamos lastIndexOf() para vim procurando de trás para frente//
 console.log(umaString.lastIndexOf('m', 3));
 //no caso, M ta na primeira posição//
+
+//usamos o replace() para subistituir//
+console.log(umaString.replace('um' , 'Outro'));
+//alteramos 'um' por 'Outro'//
