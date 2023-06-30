@@ -18,3 +18,19 @@ console.log(umaString.lastIndexOf('m', 3));
 //usamos o replace() para subistituir//
 console.log(umaString.replace('um' , 'Outro'));
 //alteramos 'um' por 'Outro'//
+
+//usamos o match() para retornar todas as letras da string//
+console.log(umaString.match(/[a-z]/g));
+//podemos ver todas as letras da string//
+
+//usamos slice para mostrar so algumas letras da string
+console.log(umaString.slice(-5));
+//o resultado foi "texto", pois conta 5 de trás para frente e ignora o resto, podemos fazer o contrario tbm//
+
+//para deixar a string toda maiuscula, usamos toUpperCase()//
+console.log(umaString.toUpperCase);
+//ficou tudo maiusculo//
+
+//para deixar tudo minusculo, usamos toLowerCase()//
+console.log(umaString.toLowerCase);
+//ficou tudo minusculo//
