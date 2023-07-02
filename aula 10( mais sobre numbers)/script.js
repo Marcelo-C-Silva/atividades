@@ -19,3 +19,4 @@ console.log(Number.isInteger(num1));
 //para saber se é NaN, basta usar Number.isNaN()//
 let temp = num1 * 'eae';
 console.log(Number.isNaN(temp));
+//isso não é uma boa pratica(colocar calculo de number com string)//
