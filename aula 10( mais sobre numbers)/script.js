@@ -13,4 +13,5 @@ console.log(num1.toString(2));
 console.log(num1.toFixed(2));
 //o 2 representa o quanto de casas decimais eu queira mostrar, no caso duas//
 
-
+//se eu quiser saber se o numero é inteiro ou não, basta usar Number.isInterger(), ele vai retorna true ou false//
+console.log(Number.isInteger(num1));
