@@ -1,5 +1,14 @@
-let num1 = 10.5657657665476546;
-let num2 = 2.5;
+let num1 = 0.7;
+let num2 = 0.1;
+
+//para numeros mais exatos basta fazer isso//
+num1 += num2;
+num1 += num2;
+
+num1 = Number(num1.toFixed(2));
+console.log(num1)
+console.log(Number.isInteger(num1));
+
 
 //convertendo numero para string com toString()//
 console.log(num1.toString()+num2);
@@ -20,3 +29,4 @@ console.log(Number.isInteger(num1));
 let temp = num1 * 'eae';
 console.log(Number.isNaN(temp));
 //isso não é uma boa pratica(colocar calculo de number com string)//
+
