@@ -21,3 +21,8 @@ console.log(Math.min(1,2,3,4,5,56,333456,132323,9888876));
 
 //se eu quiser gerar numeros aleatorios eu uso o Math.radom()//
 console.log(Math.random());
+
+//se eu quiser fazer uma potencialização eu uso Math.pow()//
+console.log(Math.pow(2, 10));
+//mas como ja dito antes, assim é bem mais facil//
+console.log(2 ** 10);
