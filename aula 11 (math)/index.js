@@ -1,4 +1,4 @@
-let num1 = 9.54546;
+// let num1 = 9.54546;
 // let num2 = Math.floor(num1);
 //uso Math.floor() para arredondar para baixo, no caso vai da 9//
 // console.log(num2);
@@ -26,3 +26,7 @@ console.log(Math.random());
 console.log(Math.pow(2, 10));
 //mas como ja dito antes, assim é bem mais facil//
 console.log(2 ** 10);
+
+//se caso eu queira pegar a raiz quadrada de algum numero eu posso simplsmente fazer isso//
+let num1 = 9;
+console.log(num1 ** (1/2));
