@@ -17,7 +17,9 @@ console.log(alunosEx);
 console.log(alunosEx.length);
 
 //caso eu queira colocar mais objetos no array, basta usar o .push//
-alunosEx.push('Luiza Mel');
+alunosEx.push('Luiza Mel');//adiciona no fim
 console.log(alunosEx);
 
-//para adicionar ao começo do array, basta usar 
+//para adicionar ao começo do array, basta usar .unshift//
+alunosEx.unshift('Gustavo Lima');//adicionando ao começo
+console.log(alunosEx);
