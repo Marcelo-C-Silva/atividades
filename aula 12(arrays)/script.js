@@ -24,11 +24,20 @@ console.log(alunosEx);
 alunosEx.unshift('Gustavo Lima');//adicionando ao começo
 console.log(alunosEx);
 
-//caso eu queira tirar um elemento do array, basta eu usar .pop//
-alunosEx.pop()
+//caso eu queira tirar o ultimo elemento do array, basta eu usar .pop//
+alunosEx.pop()//remove do fim
 console.log(alunosEx);
 //podemos tambem salvar o removido em uma variavel
-let removido = alunosEx.pop();
-console.log(removido);
+let removidoF = alunosEx.pop();
+console.log(removidoF);
 console.log(alunosEx);
+
+//caso eu queira tirar o primeiro elemento do array, basta eu usar o .shift//
+alunosEx.shift()//remove do começo
+console.log(alunosEx);
+//podemos tambem salvar o removido em uma variavel
+let removidoC = alunosEx.shift();
+console.log(removidoC);
+console.log(alunosEx);
+
 
