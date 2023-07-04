@@ -13,4 +13,11 @@ alunosEx[0] = 'Luizin';
 console.log(alunosEx);
 //veja que luizin substituiu joao//
 
+//se eu quiser saber o tamanho do meu array basta somente usar o .lenght//
+console.log(alunosEx.length);
 
+//caso eu queira colocar mais objetos no array, basta usar o .push//
+alunosEx.push('Luiza Mel');
+console.log(alunosEx);
+
+//para adicionar ao começo do array, basta usar 
