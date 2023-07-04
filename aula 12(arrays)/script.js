@@ -16,10 +16,19 @@ console.log(alunosEx);
 //se eu quiser saber o tamanho do meu array basta somente usar o .lenght//
 console.log(alunosEx.length);
 
-//caso eu queira colocar mais objetos no array, basta usar o .push//
+//caso eu queira colocar mais elementos no array, basta usar o .push//
 alunosEx.push('Luiza Mel');//adiciona no fim
 console.log(alunosEx);
 
 //para adicionar ao começo do array, basta usar .unshift//
 alunosEx.unshift('Gustavo Lima');//adicionando ao começo
 console.log(alunosEx);
+
+//caso eu queira tirar um elemento do array, basta eu usar .pop//
+alunosEx.pop()
+console.log(alunosEx);
+//podemos tambem salvar o removido em uma variavel
+let removido = alunosEx.pop();
+console.log(removido);
+console.log(alunosEx);
+
