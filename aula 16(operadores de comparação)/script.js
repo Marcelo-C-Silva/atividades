@@ -10,3 +10,6 @@
 
 let comp = 5 > 10;
 console.log(comp);
+
+let comp2 = 10 >= 11;
+console.log(comp2);
