@@ -8,4 +8,5 @@
 // != diferente
 // !== diferente estrito
 
-console.log (10 > 5);
+let comp = 5 > 10;
+console.log(comp);
